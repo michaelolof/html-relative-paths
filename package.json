@@ -1,0 +1,33 @@
+{
+  "name": "html-relative-paths",
+  "version": "1.1.0",
+  "description": "Command line tool to convert a static site to use only relative urls",
+  "main": "index.js",
+  "bin": {
+    "html-relative-paths": "index.js"
+  },
+  "keywords": [],
+  "author": "michaelolof",
+  "license": "MIT",
+  "dependencies": {
+    "postcss": "^7.0.30",
+    "postcss-url": "^8.0.0",
+    "rehype-parse": "^6.0.2",
+    "rehype-stringify": "^7.0.0",
+    "rehype-url-inspector": "^2.0.1",
+    "relative": "^3.0.2",
+    "unified": "^9.0.0",
+    "vfile-find-down": "^5.0.1"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelolof/html-relative-paths.git"
+  },
+  "bugs": {
+    "url": "https://github.com/michaelolof/html-relative-paths/issues"
+  },
+  "homepage": "https://github.com/michaelolof/html-relative-paths#readme"
+}
